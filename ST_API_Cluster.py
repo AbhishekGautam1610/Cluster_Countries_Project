@@ -33,3 +33,8 @@ if st.button("Predict Cluster"):
     cluster = kmeans.predict(input_scaled)[0]
     
     st.success(f"🌍 This country belongs to **Cluster {cluster}**!")
+
+    st.write("Cluster 0 Denotes - Developed Nations")
+    st.write("Cluster 1 Denotes - Least Developed Nations")
+    st.write("Cluster 2 Denotes - Emerging Nations")
+    st.write("Cluster 3 Denotes - Developing Nation")
